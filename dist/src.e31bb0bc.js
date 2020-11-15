@@ -36637,6 +36637,7 @@ function main() {
   var renderer = new THREE.WebGLRenderer({
     canvas: canvas
   });
+  console.log('hi');
   var fov = 75;
   var aspect = 2; // the canvas default
 
@@ -36697,7 +36698,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53415" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56840" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
